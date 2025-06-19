@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>React and EJS App</title>
+</head>
+<body>
+  <div id="root"></div> <!-- React will render here -->
+  <script src="../public/build/static/js/main.668448de.js"></script> <!-- Your bundled React JS file -->
+  <script>
+    console.log("<%= message %>");  // You can use the dynamic data passed from Express
+  </script>
+</body>
+</html>
